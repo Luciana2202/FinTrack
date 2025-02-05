@@ -8,6 +8,8 @@ Aplicativo Android Nativo desenvolvido com a linguagem de programação Kotlin. 
 
 <img src="https://github.com/Luciana2202/FinTrack/blob/master/Screenshot_telacategory.png" width=200/>        <img src="https://github.com/Luciana2202/FinTrack/blob/master/Screenshot_telanewcategory.png" width=200/>        <img src="https://github.com/Luciana2202/FinTrack/blob/master/Screenshot_telavazia.png" width=200/>
 
+## Tecnologias
+
 * Activity para host de telas
 * Snackbar
 * ViewGroup
