@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FinTrack</string>
+    <string name="home_title">FinTrack</string>
+    <string name="create_expense_title">Adicionar Despesa</string>
+    <string name="create">Criar</string>
+    <string name="delete">Deletar</string>
+    <string name="update_expense_title">Atualizar Despesa</string>
+    <string name="update">Atualizar</string>
+    <string name="category_delete_title">Importante</string>
+    <string name="category_delete_description">Deletando a categoria todas as despesas serão deletadas.</string>
+    <string name="empty_category">Crie uma categoria</string>
+</resources>

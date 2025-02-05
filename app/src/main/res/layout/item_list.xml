@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:backgroundTint="#E9E9E9"
+    android:foreground="?android:selectableItemBackground"
+    app:cardCornerRadius="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="16dp"
+            android:contentDescription="@null"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/ic_home" />
+
+        <LinearLayout
+            android:id="@+id/linearlayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            app:layout_constraintBottom_toBottomOf="@id/image"
+            app:layout_constraintStart_toEndOf="@id/image"
+            app:layout_constraintTop_toTopOf="@id/image">
+
+            <TextView
+                android:id="@+id/tv_category_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HOME"
+                android:textColor="@color/blue"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_spent_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fatura Mensal"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_value_amount"
+            android:layout_width="52dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="16dp"
+            android:text="R$ 1000,00"
+            android:textColor="@color/black"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/linearlayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/linearlayout" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
+
